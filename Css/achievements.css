@@ -50,13 +50,11 @@
 /* Modal */
 /* Modal Background */
 .modal {
-    display: none;
+    display: none; /* must stay none by default */
     position: fixed;
     z-index: 1000;
-    inset: 0; /* shortcut for top:0; left:0; right:0; bottom:0 */
+    inset: 0;
     background-color: rgba(0, 0, 0, 0.95);
-
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -78,3 +76,4 @@
     font-size: 35px;
     cursor: pointer;
 }
+
