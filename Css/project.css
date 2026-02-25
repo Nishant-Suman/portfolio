@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .projects-page {
     min-height: 100vh;
@@ -15,6 +16,13 @@
     margin-bottom: 60px;
 }
 
+/* PROJECT MEDIA ELEMENT KO ADJUST KRNE K LIYE */
+.project-media img{
+    width: 100%;
+}
+.project-media video{
+    width: 100%;
+}
 .back-home {
     text-align: center;
     margin-top: 50px;
@@ -33,4 +41,34 @@
 
 .back-home button:hover {
     background: white;
+}
+/* FOR PROPER ADJUSTMENT IN DIFFERENT DEVICES */
+@media (max-width: 368px) {
+
+    header {
+        padding: 15px 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;   /* Important */
+        background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    }
+    
+    nav .contents {
+        display: flex;
+        flex-wrap: wrap;   /* Important */
+        gap: 10px;
+    }
+
+    nav .elements {
+        width: 100%;
+    }
+
+    .projects-page {
+        padding: 40px 4%;
+    }
+
+    .page-title {
+        font-size: 28px;
+    }
 }
