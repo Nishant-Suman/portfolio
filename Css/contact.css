@@ -53,3 +53,24 @@
 .contact-page button:hover {
     background: white;
 }
+/* For Responsive to Devices */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;   /* Important */
+        background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    }
+    
+    nav .contents {
+        display: flex;
+        flex-wrap: wrap;   /* Important */
+        gap: 10px;
+    }
+
+    nav .elements {
+        width: 100%;
+    }
+}
