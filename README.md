@@ -14,11 +14,11 @@ Currently exploring real-world innovations like smart systems, AI-powered apps, 
 
 ## 🧠 Skills
 
-- 💻 Programming: Python, C++, JavaScript  
+- 💻 Programming: Python, C++, JavaScript, Go Lang   
 - 🤖 AI/ML: Machine Learning, Deep Learning, NLP (SpaCy)  
-- 🌐 Web Dev: HTML, CSS, JavaScript  
-- 📱 App Dev: Python (Kivy)  
-- 🛠 Tools: Git, GitHub, VS Code  
+- 🌐 Web Dev: HTML, CSS, JavaScript, React, Docker, MY Sql , MERN Stack  
+- 📱 App Dev: Python (Kivy), Flask  
+- 🛠 Tools: Git, GitHub, VS Code , Aws Cloud 
 
 ---
 
